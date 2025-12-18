@@ -1,6 +1,5 @@
 //Primitive 
 
-const { useImperativeHandle } = require("react");
 
 //7 types : String, Number , Boolean, null, undefined,symbol,Bigint
 
@@ -34,12 +33,12 @@ const myFunction = function(){
     console.log("Hello World");
 }
 console.log(typeof scoreValue); // number
-// console.log(typeof BigInt);    // function
-// console.log(typeof outsideTemp);// object
-// console.log(typeof isLoggedIn);//boolean
-// console.log(typeof userEmail);//undefined
-// console.log(typeof id);       //symbol
-// console.log(typeof myFunction);// function  
+console.log(typeof BigInt);    // function
+console.log(typeof outsideTemp);// object
+console.log(typeof isLoggedIn);//boolean
+console.log(typeof userEmail);//undefined
+console.log(typeof id);       //symbol
+console.log(typeof myFunction);// function  
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++
 
